@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.titulos {
+  text-align: center;
+}
+
+.quienes_somos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.btn-direction {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.btn-whatsapp {
+  text-align: center;
+  display: inline-block;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128C7E;
+}
+
