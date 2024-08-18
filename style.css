@@ -3,10 +3,18 @@ html {
   width: 100%;
 }
 
-presents {
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+.color-fondo {
+  background-color: #FEBE00;
+}
+
+.titulo-1 {
+    text-align: center;
+    color: #4BA642;
+    text-shadow: 
+        2px 2px 0 #fff,
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff;
 }
 
 .titulos {
@@ -25,9 +33,100 @@ presents {
   text-align: center;
 }
 
+.btn-mercado-pago {
+  text-align: center;
+  display: inline-block;
+  background-color: #00A2E8;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-mercado-pago:hover {
+  background-color: #0086EA;
+}
+
+.body-carrusel {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #4BA642;
+}
+
+.carrusel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carrusel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.tarjeta {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 0 10px;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  z-index: 1;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #555;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+
+
+
 .footer {
   text-align: center;
 }
+
+
 
 .btn-whatsapp {
   text-align: center;
