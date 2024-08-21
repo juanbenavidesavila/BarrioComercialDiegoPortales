@@ -7,6 +7,16 @@ html {
   background-color: #FEBE00;
 }
 
+.titulo-2 {
+    text-align: left;
+    color: #4BA642;
+    text-shadow: 
+        1px 1px 0 #fff,
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff;
+}
+
 .titulo-1 {
     text-align: center;
     color: #4BA642;
@@ -50,6 +60,44 @@ html {
 .btn-mercado-pago:hover {
   background-color: #0086EA;
 }
+
+.btn-barrio-portales {
+  text-align: center;
+  display: inline-block;
+  background-color: #4BA642;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-barrio-portales:hover {
+  background-color: #388023;
+}
+
+.btn-galeria {
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-galeria:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .body-carrusel {
   font-family: Arial, sans-serif;
