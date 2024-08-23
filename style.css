@@ -79,6 +79,24 @@ html {
   background-color: #388023;
 }
 
+.btn-disenon {
+  text-align: center;
+  display: inline-block;
+  background-color: #404042;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-disenon:hover {
+  background-color: #026C94;
+}
+
 .btn-galeria {
   text-align: center;
   display: inline-block;
